@@ -6,7 +6,7 @@
 ## ===========================================================================
 ##
 ## A simple tool to automate the reduction of tiles to TINs using tiles exported from TerreSculptor
-## Set the fileFolder variable to your choice of location where the exported objs are. Keep in mind that the exported files will overwrite the existing ones.
+## Set the fileFolder variable to your choice of location where the exported objs are, making sure to leave the \\ at the end of the path too. Keep in mind that the exported files will overwrite the existing ones.
 ## Change the reductionAmount variable to set the percentage of the reduction. The crashSafe feature is not yet implemented fully.
 ##
 ##
