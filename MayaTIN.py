@@ -18,8 +18,8 @@ import os
 #    initialize
 ################################
 
-fileFolder = "replace\\these\\paths\\with\\your\\location"
-#fileFolder = "replace\\these\\paths\\with\\your\\location"
+fileFolder = "replace\\these\\paths\\with\\your\\location\\"
+#fileFolder = "replace\\these\\paths\\with\\your\\location\\testfolder\\"
 fileCSV = fileFolder+"\\crashSafe.csv"
 tileArray = []
 tileName = []
