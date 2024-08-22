@@ -60,7 +60,7 @@ def print_tiles():
 def reduce(newName, filePath):
     cmds.file(filePath, i=True, type="OBJ")
     selection = cmds.select(all=1)
-    cmds.polyReduce(p=reductionAmount, version=1, cachingReduce=1, caching=1, keepBorder=1, replaceOriginal=1, keepBorderWeight=1) #change the p= vlaue to change the percentage of reduction
+    cmds.polyReduce(p=reductionAmount, version=1, cachingReduce=1, caching=1, keepBorder=1, replaceOriginal=1, keepBorderWeight=1)
     cmds.rename(selection, newName)
     print(filePath)
     options = "groups=0;ptgroups=0;materials={0};smoothing=1;normals={1}"
